@@ -13,7 +13,7 @@ Contrastive learning for echocardiographic view integration."
 ```
 
 ## Overview
-![image](VCN/Fig1_animate.gif)
+![](VCN/Fig1_animate.gif)
 
 In this work, we aimed to tackle the challenge of fusing information from multiple echocardiographic views, mimicking cardiologists making diagnoses with an integrative approach. For this purpose, we used the available information provided in the CAMUS dataset to experiment combining 2D complementary views to derive 3D information of left ventricular (LV) volume. We proposed intra-subject and inter-subject volume contrastive losses with varying margin to encode heterogeneous input views to a shared view-invariant volume-relevant feature space, where feature fusion can be facilitated. The results demonstrated that the proposed contrastive losses successfully improved the integration of complementary information from the input views, achieving significantly better volume predictive performance (MAE: 10.96 ml, RMSE: 14.75 ml, R2: 0.88) than that of the late-fusion baseline without contrastive losses (MAE: 13.17 ml, RMSE: 17.91 ml, R2: 0.83).
 
